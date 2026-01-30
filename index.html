@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+<title>EXCHANGER</title>
+</head>
+<body>
+    <h1>Currency Exchanger</h1>
+         <div class="services">
+            <button class="option">Currency Converter</button>
+            <button class="option">Currency Charts</button>
+            <button class="option">Set Alerts</button>
+            <button class="option">Send Money</button>
+        </div>
+<div class="container">
+        <form>
+            <div class="input">
+                <p>ENTER AMOUNT</p>
+                <input value="100" type="text">
+            </div>
+           <div class="dropdown">
+            <div class="from">
+                <p id="from">From</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from"></select>
+                </div>
+            </div>
+            
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+            <div class="to">
+                <p id="to">To</p>
+                <div class="select-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png">
+                    <select name="to"></select>
+            </div>
+           </div>
+        </div>
+        <div class="msg">Empty</div>
+         <div class="output">
+                <p>CONVERTED AMT:</p>
+                <div class="output-msg">Testing</div>
+            </div>
+        <button id="submit-btn">Get Exchange Rate</button>
+        </form>   
+    </div>
+</div>
+<script src="codes.js"></script>
+<script src="app.js"></script>    
+</body>
+</html> 

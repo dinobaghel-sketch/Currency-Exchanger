@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h1{
+    background-color:#000E24;
+    color:#fff;
+    font-size:5rem;
+    padding:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.services{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#002966;
+    color:white;
+    height:8vh;
+    gap:5rem;
+}
+
+.option{
+    height:4rem;
+    width:14rem;
+    font-size:1.55rem;
+    border:none;
+    border-radius:none;
+    background-color:#002966;
+    color:white;
+}
+
+.option:hover{
+    background-color:#ACC8E5;
+    color:black;
+    cursor:pointer;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#0052CC;
+    min-height:80vh;
+    width:100%;
+}
+
+form{
+    border:1rem solid red;
+    background-color:#fff;
+    height:60vh;
+    width:45vh;
+    border-radius:2rem;
+    padding:2rem;
+}
+
+.heading{
+    font-size:2rem;
+}
+
+form input,button,select{
+    width:95%;
+    border:none;
+    outline:none;
+    border-radius:0.75rem;
+    
+}
+
+.input,.output{
+    font-size:2rem;
+}
+
+form input{
+    margin-top:10px;
+    font-size:2rem;
+    border:2px solid grey;
+    height:3rem;
+    padding-left:1rem; 
+}
+
+.dropdown{
+    /*from and to box*/
+    border: 2px solid red;
+    display:flex;
+    margin:1.5rem 1rem 0rem 1rem;
+    width:90%;
+    height:9vh;
+    justify-content:space-between;  
+}
+
+#from,#to{
+    font-size:1.5rem;
+}
+
+i{
+  display:flex;
+  margin-top:1.75rem;
+  font-size:1.5rem;
+}
+
+.select-container img{
+    max-width:3rem;
+    margin-left:5px;
+    
+}
+
+.select-container{
+    display:flex;
+    gap:1rem;
+    justify-content:center;
+    align-content:center;
+    height:1.75rem;
+    width:8.5rem;
+    border-radius:0.5rem;
+    border:2px solid #CCE0FF;
+}
+
+form option{
+    font-size:1rem;
+    background-color:white;
+    color:black;
+    border-radius:0.5rem;
+}
+
+form select{
+    font-size:1.5rem;
+    color:black;
+    border:none;
+    border-radius:none;
+}
+
+.msg{
+    border:1px solid blue;
+    margin:1rem 0rem 1rem 0;
+    display:flex;
+    padding:0.5rem;
+    font-size:1.5rem;
+    
+
+}
+
+.output-msg{
+    margin-top:10px;
+    border:1px solid green;
+    padding:0.5rem;
+    border-radius:0.5rem;
+}
+
+#submit-btn{
+    background-color:purple;
+    color:#fff;
+    margin-top:2rem;
+    height:3rem;
+    width:9rem;
+    padding:0.5rem;
+    font-size:1rem;
+}
+
+
+
